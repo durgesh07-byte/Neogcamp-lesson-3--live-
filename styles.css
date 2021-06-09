@@ -3,6 +3,8 @@
 
 :root {
     --primary-color: #FBBF24;
+    --dark-gray:#6B7280;
+
 }
 
 
@@ -32,15 +34,16 @@ hr{
 }
 
 .link-primary{
-    background-color: #FBBF24;
-    color:#FBBF24;
+    /* background-color: #FBBF24; */
+    background-color: var(--primary-color);
+    /* color:#FBBF24; */
     border-radius: 0.5rem;
     color :white;
 
 }
 
 .link-secondary{
-    color:#FBBF24;
+    color:  var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid #FBBF24;
 
@@ -79,4 +82,25 @@ nav */
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+
+/* header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color:var(--dark-gray) ;
+}
+
+.hero .hero-heading .heading-inverted {
+    color:var(--primary-color);
 }
