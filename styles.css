@@ -18,6 +18,10 @@ hr {
     margin: 2rem 0rem;
 }
 
+/* Spaces */
+.margin-md{
+    margin:2 rem;
+}
 /* container */
 
 .container {
@@ -94,6 +98,7 @@ nav */
 /* header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
